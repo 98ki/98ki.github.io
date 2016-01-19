@@ -1,24 +1,3 @@
-/*
-
-Theme Name: Grid Theme Responsive
-
-Theme URI: http://www.dessign.net/gridthemeresponsive
-
-Description: Grid Theme Responsive for WordPress is stylish, customizable, simple, and readable. Perfect for any illustrator or graphic designer. 
-
-Version: 2.0.5
-
-Author: Marios Lublinski
-
-Author URI: http://www.dessign.net
-
-Tags: 4 column theme, white, clean
-
-*/
-
-/* =WordPress Core
-
--------------------------------------------------------------- */
 
 .alignnone {
 
@@ -59,7 +38,16 @@ div.aligncenter {
     margin: 5px auto 5px auto;
 
 }
-
+.gridview {
+    position: relative;
+    width: 90%;
+    max-width: 1050px;
+    margin: 4rem auto;
+    font-family: inherit;
+    font-size: 1.3rem;
+    color: #9EABB3;
+    text-align: center;
+}
 a img.alignright {
 
     float: right;
@@ -172,13 +160,13 @@ a:hover { color:#333; transition: background 0.3s ease 0s, color 0.3s ease 0s;  
 
 ::selection {
 
-	background: #c9dee3; 
+	background: #c9dee3;
 
 	}
 
 ::-moz-selection {
 
-	background: #c9dee3; 
+	background: #c9dee3;
 
 }
 
@@ -258,19 +246,19 @@ a:hover { color:#333; transition: background 0.3s ease 0s, color 0.3s ease 0s;  
 
       background-color: /*rgba(0, 0, 0, 0.7)*/ #000; -moz-border-radius: 5px; -webkit-border-radius: 5px; -khtml-border-radius: 5px; border-radius: 5px;
 
-  
+
 
       /* Or use a transparent image if you need to support bad browsers: */
 
       /*background-image: url(images/hover_caption_bg.png);*/
 
-  
+
 
       /* NOTE: If you're img elements have paddings or margins you'll need to
 
       match them here to get things lined up properly. */
 
-	  transition: background 0.3s ease 0s, color 0.3s ease 0s; 
+	  transition: background 0.3s ease 0s, color 0.3s ease 0s;
 
     }
 
@@ -280,13 +268,13 @@ a:hover { color:#333; transition: background 0.3s ease 0s, color 0.3s ease 0s;  
 
 .hover_box { width: 228px; height: 331px; }
 
-  
+
 
 #commentform input[type=submit] { background-color: #000; border: none; color: #fff; padding: 8px 10px; }
 
 #commentform a { color: #000; }
 
-.commentlist a { color: #000; }    
+.commentlist a { color: #000; }
 
 .iphone-home-image { width: 300px !important; }
 
@@ -334,11 +322,11 @@ a:hover { color:#333; transition: background 0.3s ease 0s, color 0.3s ease 0s;  
 
     .logo { max-width: 500px; height: inherit; }
 
-  
 
-  
 
-  
+
+
+
 
  .header_social_icons_cont { display: none;}
 
@@ -346,7 +334,7 @@ a:hover { color:#333; transition: background 0.3s ease 0s, color 0.3s ease 0s;  
 
 #menu_container input[type=text] { display: none; }
 
-  
+
 
 .home_post_cont { float: left; margin-right: 20px; width: 162px; min-height: 231px; margin-bottom: 35px; position: relative; }
 
@@ -370,7 +358,7 @@ a:hover { color:#333; transition: background 0.3s ease 0s, color 0.3s ease 0s;  
 
 .home_post_cat {  }
 
-	
+
 
 .single_left { float: left; width: 500px; }
 
